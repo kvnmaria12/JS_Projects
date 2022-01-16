@@ -71,7 +71,7 @@ function checkLength(input, min, max) {
 }
 
 function passwordCheck(pass1, pass2) {
-    if (pass1.value.length >= 3 && pass2.value.length) {
+    if (pass1.value.length >= 3 && pass2.value.length >= 3) {
         if (pass1.value === pass2.value) {
             showSuccess(pass1);
         } else {
