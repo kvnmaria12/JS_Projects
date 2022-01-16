@@ -42,7 +42,6 @@ function checkRequired(inputArr) {
             showError(input, `${capitalize(input)} is required`);
         } else {
             if (input.id === "email") {
-                console.log(input.value);
                 if (!isValidateEmail(input.value)) {
                     console.log("Yes");
                     showError(input, `${capitalize(input)} is not valid`);
