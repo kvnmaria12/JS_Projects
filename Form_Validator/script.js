@@ -89,8 +89,6 @@ form.addEventListener("submit", (e) => {
 
     // to check username and password length 
     checkLength(username, 3, 15);
-    checkLength(password, 3, 20);
-    checkLength(password2, 3, 20);
 
     // to check password match 
     passwordCheck(password, password2);
