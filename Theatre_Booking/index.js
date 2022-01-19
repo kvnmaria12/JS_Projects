@@ -75,3 +75,4 @@ movieSelect.addEventListener("change", (e) => {
 });
 
 updateSelectedCount();
+
